@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+    font-family: "times new roman", sans-serif;
+  }
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+  
+  h2 {
+    margin: 10px 0px 15px 0px;
+    color: #fffff9;
+    text-align: center;
+  }
+  
+  /* ----------------------------------- Entering Page Style --------------------------------------- */
+  #enteringPage{  
+    width:50%;
+    height:320px;
+    margin: 120px 50px 100px 50px;
+    background: linear-gradient(to bottom, #ffb600, #ffb703, #fffff9);
+    border-radius: 100%;
+    box-shadow: #ffb600 1.5px 2px;
+    }
+  
+  #CVEnteringPage{
+    width: 210px;
+    height: 260px;
+    margin: 25px 20px 0px 80px;
+    border-radius: 100%;
+    box-shadow: #ffb600 2px 2px;
+  }
+  
+  .enteryButton{
+    position: absolute;
+    top: 45%;
+    padding: 10px;
+    width: 100px;
+    background-color: #fffff9;
+    color: #ffb600;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    box-shadow: #ffb600 2px 2px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .enteryButton:hover{
+    background-color: #ffb600;
+    color: #fffff9;
+  }
+  
+  #englishButton{
+    left: 60%;
+  }
+  
+  #danskButton{ 
+    left: 50%;
+  }
+  
+  #copyrightEnterPage{
+    margin-left: 32%;
+    font-size: 14px;
+    color: #ffb703;
+    box-shadow: #fffff9 1px 1px;
+  }
+  
+  /* ----------------------------------- Header Style --------------------------------------- */
+  #header-div{
+    width: 100%;
+    height: 440px;
+    left: 50%;
+    padding: 50px 225px 50px 225px;
+    background: linear-gradient(to bottom, #ffb600, #ffb703, #fffff9);
+  }
+  
+  #headerText,
+  #borderImage {
+    width: 50%;
+    float: left;
+  }
+  
+  .CV-homePage {
+    width: 230px;
+    height: 280px;
+    padding: 0px 0px 0px 18px;
+    border-radius: 100%;
+  }
+  
+  #borderImage {
+    width: 200px;
+    height: 260px;
+    margin: 30px 0px 80px 20px;
+    border: 10px solid;
+    border-image-source: linear-gradient(to top, #ffb600, #fffff9);
+    border-image-slice: 25;  
+  }
+  
+  #headerText {
+    width: 600px;
+    margin: 100px 0px 80px 0px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  #aboutMeLink {
+    margin-top: 30px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  a:hover{
+    color: #fffff9;
+  }
+  
+  /* ----------------------------------- Main Style --------------------------------------- */
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #main-divIcon1 #main-divIcon2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+  }
+  
+  .buttonStyle {
+    width: 220px;
+    height: 220px;
+    margin: 10px 40px 10px 0px;
+    background-color: #ffb600;
+    border-radius: 100%;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  .buttonStyle:hover {
+   transform: scale(0.9);
+    opacity: 1;
+  }
+  
+  .mainIcon {
+    width: 180px;
+    height: 160px;
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .DKtext{
+    font-size: 10px;
+  }
+  
+  /* --------------------------------------- Main Popup Style--------------------------------- */
+  
+  /* Styling for the all popup */
+  .popup {
+    display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;  
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    user-select: none;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffb600, #ffb703, #fff987);
+    color: #000000;
+    z-index: 1;  
+    border-radius: 100%;
+    font-style: bold;
+  }
+  
+  /* Styling for the popup0 About me*/
+  #popup0Style {
+    padding: 50px 20px 20px 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px; 
+  }
+  
+  #CV-aboutMe {
+    width: 110px;
+    height: 140px;
+    margin-left: 30%;
+    border-radius: 100%;
+  }
+  
+  /* Styling for the popup1 Education*/
+  #popup1Style {
+    padding: 50px 20px 20px 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 16px;
+    text-align: center;  
+  }
+  
+  .educationDegreeIcon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Styling for the popup2 Working Experence*/
+  #popup2Style {
+    padding: 70px 20px 20px 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 14px;
+    text-align: left;  
+  }
+  
+  /* Styling for the popup3 Technical Skills*/
+  #popup3Style {
+    padding: 50px 20px 20px 40px;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .technical-div {
+    width: 100%;
+    height: 20px;
+    padding: 5px 10px;
+    background: #fffff9;
+    text-align: right;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  
+  #HTML-div {
+    width: 80%;
+  }
+  
+  #CSS-div {
+    width: 75%;
+  }
+  
+  #JS-div {
+    width: 38%;
+  }
+  
+  #PHP-div {
+    width: 38%;
+  }
+  
+  #Wordpress-div {
+    width: 45%;
+  }
+  
+  #MySQL-div {
+    width: 45%;
+  }
+  
+  #GitHub-div {
+    width: 50%;
+  }
+  
+  #SEO-div {
+    width: 45%;
+  }
+  
+  #Network-div {
+    width: 38%;
+  }
+  
+  #Microsoft-div {
+    width: 82%;
+  }
+  
+  /* Styling for the popup4 Artistik Skills*/
+  #popup4Style {
+    padding: 50px 20px 20px 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+  }
+  
+  .artistikSkillsIcon {
+    width: 100px;
+    height: 80px;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  #artistikSkills-p{
+    font-size: 12px;
+  }
+  
+  #artistikSkills-instageram {
+    width: 70px;
+    height: 60px;
+    padding: 5px 20px 0px 20px;
+  }
+  
+  /* Styling for the popup5 Hobbies*/
+  #popup5Style {
+    padding: 50px 20px 20px 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+  }
+  
+  /* Styling the Close Button in popup*/
+  .closeButton {
+    width: 80px;
+    top: 90%;
+    left: 44%;
+    position: absolute;
+    background-color: #ffb703;
+    color: #000;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    
+  }
+  
+  .closeButton:hover {
+    transition: color 0.2s;
+  }
+  
+  /* --------------------------------------- Footer Style--------------------------------- */
+  #footer-div {
+    width: 100%;
+    height: auto;
+    left: 50%;
+    padding: 20px 150px 20px 150px;
+    margin-top: 80px;
+    background: linear-gradient(to top, #ffb600, #ffb703, #fffff9);
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer-icon {
+    width: 80px;
+    height: 80px;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.3);
+  }
+  
+  #copyright-text {
+    font-size: 18px;
+    color: #fffff9;
+    padding-top: 30px;
+  }
+  
+  /* Footer Contact me Icon */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact .icon-content {
+    margin: 25px 15px;
+    position: relative;
+  }
+  
+  .contact .icon-content .tooltip {
+    padding: 10px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #fffff9;
+    color: #000000;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+  }
+  
+  .contact .icon-content:hover .tooltip {
+    width: auto;
+    height: auto;
+    top: -25px;
+    left: 25px;
+    opacity: 1;
+    visibility: visible;  
+  }
+  
+  .contact .icon-content a {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fffff9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Time & Date */
+  .time-date {
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+  }
+  
+  /*Website Traffic Counter*/
+  #webTraficIcon {
+    width: 80px;
+    height: 100px;
+    padding: 30px 0px 0px 0px;
+  }
+  
+  #counter {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+  
+  /* -------------------------------------- Media queries -------------------------------------- */
+  /* Mobile styles */
+  @media only screen and (max-width: 375px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .div1,
+    .div2 {
+      width: 100%;
+      float: none;
+    }
+  
+  h1{
+    font-size: 14px;
+  }
+    .div-nav,
+    .slider-container,
+    .socialbar,
+    .menubar {
+      margin-right: 0;
+    }
+  
+    /* Add more styles for mobile as needed */
+  }
+  
+  /* Tablet styles */
+  @media (main-width:576px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .div1,
+    .div2 {
+      width: 50%;
+      float: left;
+    }
+  
+    .div-nav,
+    .slider-container,
+    .socialbar,
+    .menubar {
+      margin-right: 30px;
+    }
+  h1{
+    font-size: 14px;
+  }
+  
+    /* Add more styles for tablet as needed */
+  }
+  
+  /* Desktop styles */
+  @media (main-width:576px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .div1,
+    .div2 {
+      width: 50%;
+      float: left;
+    }
+    
+    .div-nav,
+    .slider-container,
+    .socialbar,
+    .menubar {
+     margin-right: 30px;
+    }
+  
+    /* Add more styles for desktop as needed */
+  }
+  

@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title> Portfolio Project </title>
+  <link href="../asset/myLogo.png" rel="shortcut icon" type="image/x-icon" />
+  <!-- CSS Stylesheets -->
+  <link href="../CSS/master.css" rel="stylesheet" />
+</head>
+
+<header id="header-div">
+  <div id="borderImage">
+    <img class="CV-homePage" src="../asset/CV-2024.jpg" alt="CV Image">
+  </div>
+  <div id="headerText">
+    <h1> Shirin Hajizadeh </h1>
+    <br>
+    <h3> Web Designer </h3>
+    <br>
+    <a id="aboutMeLink" onclick="openPopup('popup0')"> More about me </a>
+  </div>
+  <div id="popup0" class="popup">
+    <div id="popup0Style">
+      <h2> About me </h2>
+      <img id="CV-aboutMe" src="../asset/CV-2023.jpg" alt="CV Image">
+      <p> I am Shirin, a Computer Engineering graduate deeply passionate about web design and graphics. <br>
+        I thrive on acquiring new skills and dedicating my free time to crafting projects.
+        With a creative mindset and meticulous attention to detail, I enjoy staying abreast of the latest trends in design and technology.
+        I am enthusiastic about leveraging my skills to contribute to impactful projects and collaborative endeavors that ignite my inspiration. </p>
+    </div>
+    <button class="closeButton" value="Close" onclick="closePopup('popup0')"> Close </button>
+  </div>
+</header>
+
+<body>
+  <main>
+    <div id="main-divIcon1">
+      <button class="buttonStyle" type="button" value="open" onclick="openPopup('popup1')">
+        <img class="mainIcon" src="../asset/education-icon.png" alt="Education Icon">
+        <p> Education </p>
+      </button>
+      <div id="popup1" class="popup">
+        <div id="popup1Style">
+          <h2> Education </h2><br>
+          <img class="educationDegreeIcon" src="../asset/educationDegree-icon.png" alt="Education Degree">
+          <h3> Master’s Degree </h3>
+          <p><b> Computer Engineering </b></p><br>
+          <p> Azad University – Iran 2014 </p>
+          <br>
+          <img class="educationDegreeIcon" src="../asset/educationDegree-icon.png" alt="Education Degree">
+          <h3> Bachelor’s degree </h3>
+          <p><b> Computer Engineering </b></p><br>
+          <p> Azad University – Iran 2010 </p>
+        </div>
+        <button class="closeButton" value="Close" onclick="closePopup('popup1')"> Close </button>
+      </div>
+
+      <button class="buttonStyle" type="button" value="open" onclick="openPopup('popup2')">
+        <img class="mainIcon" src="../asset/workExperience-icon.png" alt="Working Experience Icon">
+        <p> Working Experence </p>
+      </button>
+      <div id="popup2" class="popup">
+        <div id="popup2Style">
+          <h2> My Working Experience </h2>
+          <h3>• Web Designer • 2019 – 2020</h3>
+          <p> Hands-on experience in designing, implementing, and managing websites through WordPress.<br>
+            Custom design based on customers’ needs. <br>
+            Collaborate with members of a creative team. <br>
+            Troubleshoot and resolve client’s website problems. </p><br>
+
+          <h3> • Part Time Lecturer • 2014 – 2019 </h3>
+          <p> Part-time lecturer, teaching courses: <br>
+            Operating System <br>
+            Graphic Design <br>
+            Logic Circuit </p><br>
+
+          <h3> • Full Time teacher • 2014 – 2018 </h3>
+          <p> Experienced in fostering early childhood development and foundational learning. <br>
+            I've cultivated a keen eye for detail and a strategic approach to problem solving </p>
+        </div>
+        <button class="closeButton" value="Close" onclick="closePopup('popup2')"> Close </button>
+      </div>
+
+      <button class="buttonStyle" type="button" value="open" onclick="openPopup('popup3')">
+        <img class="mainIcon" src="../asset/technicalSkills-icon.png" alt="Technical Skills Icon">
+        <p>Technical Skills</p>
+      </button>
+      <div id="popup3" class="popup">
+        <div id="popup3Style">
+          <h2> Technical Skills </h2>
+          <p> HTML </p>
+          <div class="technical-div" id="HTML-div">98%</div>
+          <p> CSS </p>
+          <div class="technical-div" id="CSS-div">90%</div>
+          <p> JS </p>
+          <div class="technical-div" id="JS-div">40%</div>
+          <p> PHP </p>
+          <div class="technical-div" id="PHP-div">40%</div>
+          <p> Wordpress </p>
+          <div class="technical-div" id="Wordpress-div">50%</div>
+          <p> MySQL </p>
+          <div class="technical-div" id="MySQL-div">50%</div>
+          <p> GitHub </p>
+          <div class="technical-div" id="GitHub-div">60%</div>
+          <p> SEO </p>
+          <div class="technical-div" id="SEO-div">50%</div>
+          <p> Network+ </p>
+          <div class="technical-div" id="Network-div">40%</div>
+          <p> Microsoft Office </p>
+          <div class="technical-div" id="Microsoft-div">99%</div>
+          <button class="closeButton" value="Close" onclick="closePopup('popup3')"> Close </button>
+        </div>
+      </div>
+    </div>
+    <div id="main-divIcon2">
+      <button class="buttonStyle" type="button" value="open" onclick="location.href='//www.github.com/ShirinHajizadeh'">
+        <img class="mainIcon" src="../asset/github-icon.png" alt="Github Icon">
+        <p> GitHub </p>
+      </button>
+
+      <button class="buttonStyle" type="button" value="open" onclick="openPopup('popup4')">
+        <img class="mainIcon" src="../asset/artisticSkills-icon.png" alt="Artistic Skills Icon">
+        <p> Artistik Skills </p>
+      </button>
+      <div id="popup4" class="popup">
+        <div id="popup4Style">
+          <h2> Artistik Skills </h2>
+          <ul class="contact">
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/graphicDesign-icon.png" alt="Graphic Design Icon">
+              <div class="tooltip"> Logo Design </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/handcraft-icon.png" alt="Handcraft Icon">
+              <div class="tooltip"> Crafting </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/painting-icon.png" alt="Painting Icon">
+              <div class="tooltip"> Painting </div>
+            </li>
+          </ul>
+          <ul class="contact">
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/sewing-icon.png" alt="Swing Icon">
+              <div class="tooltip"> Swing </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/cooking-icon.png" alt="Cooking Icon">
+              <div class="tooltip"> Cooking </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/bakery-icon.png" alt="Bakery Icon">
+              <div class="tooltip"> Bakery </div>
+            </li>
+          </ul>
+          <p id="artistikSkills-p"> Follow me on instagram </p>
+          <a href="https://www.instagram.com/shirin_handcraft" aria-label="Instagram" data-social="Instagram">
+            <img id="artistikSkills-instageram" src="../asset/instagram-icon.png" alt="Instagram Icon">
+          </a>
+        </div>
+        <button class="closeButton" value="Close" onclick="closePopup('popup4')"> Close </button>
+      </div>
+
+      <button class="buttonStyle" type="button" value="open" onclick="openPopup('popup5')">
+        <img class="mainIcon" src="../asset/hobbies-icon.png" alt="Hobbies Icon">
+        <p> Hobbies </p>
+      </button>
+      <div id="popup5" class="popup">
+        <div id="popup5Style">
+          <h2> Hobbies </h2>
+          <ul class="contact">
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/camping-icon.png" alt="Camping Icon">
+              <div class="tooltip"> Camping </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/hicking-icon.png" alt="Hicking Icon">
+              <div class="tooltip"> Hicking and Mountaineering </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/running-icon.png" alt="Running Icon">
+              <div class="tooltip"> Running </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/bike-icon.png" alt="Bike Icon">
+              <div class="tooltip"> Biking </div>
+            </li>
+          </ul>
+          <ul class="contact">
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/bowling-icon.png" alt="Bowling Icon">
+              <div class="tooltip"> Bowling </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/movie-icon.png" alt="Movie Icon">
+              <div class="tooltip"> Watching film </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/headphone-icon.png" alt="Headphone Icon">
+              <div class="tooltip"> Listning to music,podcast and audio books </div>
+            </li>
+            <li class="icon-content">
+              <img class="artistikSkillsIcon" src="../asset/garden-icon.png" alt="Gardening Icon">
+              <div class="tooltip"> Gardening </div>
+            </li>
+          </ul>
+        </div>
+        <button class="closeButton" value="Close" onclick="closePopup('popup5')"> Close </button>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer-div">
+    <!-- Contact me-->
+    <div>
+      <h3 id="footer-text">Contact me</h3>
+      <ul class="contact">
+        <li class="icon-content">
+          <a href="tel:+450000000" aria-label="Phone" data-social="Phone">
+            <img class="footer-icon" src="../asset/phone-icon.png" alt="Phone Icon">
+          </a>
+          <div class="tooltip"> Phone </div>
+        </li>
+        <li class="icon-content">
+          <a href="mailto:**********@gmail.com" aria-label="Email" data-social="Email">
+            <img class="footer-icon" src="../asset/email-icon.png" alt="Email Icon">
+          </a>
+          <div class="tooltip"> Email </div>
+        </li>
+        <li class="icon-content">
+          <a href="https://www.linkedin.com/in/shirin-hajizadeh/" aria-label="Linkedin" data-social="Linkedin">
+            <img class="footer-icon" src="../asset/linkedin-icon.png" alt="Linkedin Icon">
+          </a>
+          <div class="tooltip"> Linkedin </div>
+        </li>
+        <li class="icon-content">
+          <a href="https://www.facebook.com/hajizadeh.shirin" aria-label="Facebook" data-social="Facebook">
+            <img class="footer-icon" src="../asset/facebook-icon.png" alt="Facebook Icon">
+          </a>
+          <div class="tooltip"> Facebook </div>
+        </li>
+        <li class="icon-content">
+          <a href="https://www.instagram.com/hajizadeh.shirin" aria-label="Instagram" data-social="Instagram">
+            <img class="footer-icon" src="../asset/instagram-icon.png" alt="Instagram Icon">
+          </a>
+          <div class="tooltip"> Instagram </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Time & Date-->
+    <div class="time-date" id="clock"></div>
+    <div class="time-date" id="date"></div>
+    <!-- Website Traffic Counter -->
+    <div>
+      <ul class="contact">
+        <li class="icon-content">
+          <img id="webTraficIcon" src="../asset/webTraffic-icon.png" alt="webTrafic Icon">
+          <div class="tooltip"> Website Traffic Counter </div>
+          <p id="counter">0</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Copyright rule -->
+    <p id="copyright-text"> © Copyright 2024 Shirin Hajizadehghayeni </p>
+  </footer>
+  <!-- Our codes -->
+  <script src="../JS/main.js"></script>
+</body>
+</html>
