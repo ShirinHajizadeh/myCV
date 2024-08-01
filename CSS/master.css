@@ -24,9 +24,12 @@
   
   /* ----------------------------------- Entering Page Style --------------------------------------- */
   #enteringPage{  
-    width:50%;
+    position: fixed;
+    display:inline-block;
+    width:600px;
     height:320px;
-    margin: 120px 50px 100px 50px;
+    top: 40%;
+    left: 25%;
     background: linear-gradient(to bottom, #ffb600, #ffb703, #fffff9);
     border-radius: 100%;
     box-shadow: #ffb600 1.5px 2px;
@@ -63,11 +66,11 @@
   }
   
   #englishButton{
-    left: 60%;
+    left: 72%;
   }
   
   #danskButton{ 
-    left: 50%;
+    left: 52%;
   }
   
   #copyrightEnterPage{
