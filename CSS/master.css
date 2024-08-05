@@ -23,28 +23,29 @@
   }
   
   /* ----------------------------------- Entering Page Style --------------------------------------- */
-  #enteringPage{  
+   #enteringPage{  
+    display: flex;
     position: fixed;
-    display:inline-block;
     width:600px;
     height:320px;
     top: 40%;
-    left: 25%;
+    left: 30%;
     background: linear-gradient(to bottom, #ffb600, #ffb703, #fffff9);
     border-radius: 100%;
     box-shadow: #ffb600 1.5px 2px;
-    }
+  }
   
   #CVEnteringPage{
     width: 210px;
     height: 260px;
-    margin: 25px 20px 0px 80px;
+    margin: 25px 0px 5px -220px;
     border-radius: 100%;
     box-shadow: #ffb600 2px 2px;
   }
   
   .enteryButton{
-    position: absolute;
+    position:absolute;
+    display:inline-block;
     top: 45%;
     padding: 10px;
     width: 100px;
@@ -74,7 +75,6 @@
   }
   
   #copyrightEnterPage{
-    margin-left: 32%;
     font-size: 14px;
     color: #ffb703;
     box-shadow: #fffff9 1px 1px;
@@ -450,6 +450,39 @@
   }
   
   /* -------------------------------------- Media queries -------------------------------------- */
+  @media(max-width: 850px){
+    #enteringPage{        
+      width:400px;
+      height:300px;
+      top: 20%;
+      left: 25%;
+    }
+
+    #CVEnteringPage{
+      width: 130px;
+      height: 160px;
+      margin: 20px 0px 5px 0px;     
+    }
+
+    .enteryButton{ 
+      top:65%;
+      width: 80px; 
+      font-size: 14px;
+    }
+
+    #englishButton{
+      left: 52%;
+    }
+    
+    #danskButton{ 
+      left: 30%;
+    }
+    
+    #copyrightEnterPage{
+    margin-top: 70px;
+    font-size: 12px;
+    }
+  }
   /* Mobile styles */
   @media only screen and (max-width: 375px) {
     body {
