@@ -26,10 +26,12 @@
    #enteringPage{  
     display: flex;
     position: fixed;
+    justify-content: center;
+    align-items: center;
     width:600px;
     height:320px;
     top: 40%;
-    left: 30%;
+    left: 25%;
     background: linear-gradient(to bottom, #ffb600, #ffb703, #fffff9);
     border-radius: 100%;
     box-shadow: #ffb600 1.5px 2px;
@@ -38,7 +40,7 @@
   #CVEnteringPage{
     width: 210px;
     height: 260px;
-    margin: 25px 0px 5px -220px;
+    margin: 5px 0px 5px -220px;
     border-radius: 100%;
     box-shadow: #ffb600 2px 2px;
   }
@@ -461,7 +463,7 @@
     #CVEnteringPage{
       width: 130px;
       height: 160px;
-      margin: 20px 0px 5px 0px;     
+      margin: 0px 0px 20px 0px;     
     }
 
     .enteryButton{ 
@@ -479,7 +481,7 @@
     }
     
     #copyrightEnterPage{
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 12px;
     }
   }
