@@ -207,9 +207,9 @@
   }
   
   #CV-aboutMe {
-    width: 110px;
+    width: 140px;
     height: 140px;
-    margin-left: 30%;
+    margin-left: 28%;
     border-radius: 100%;
   }
   
@@ -313,10 +313,10 @@
     font-size: 12px;
   }
   
-  #artistikSkills-instageram {
-    width: 70px;
-    height: 60px;
-    padding: 5px 20px 0px 20px;
+  .artistikSkillsIcon {
+    width: 100px;
+    height: 80px;
+    padding: 4px 20px 10px 20px;
   }
   
   /* Styling for the popup5 Hobbies*/
