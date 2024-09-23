@@ -322,6 +322,12 @@
     height: 80px;
     padding: 4px 20px 10px 20px;
   }
+
+  .instagramArt{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+  }
   
   /* Styling for the popup5 Hobbies*/
   #popup5Style {
